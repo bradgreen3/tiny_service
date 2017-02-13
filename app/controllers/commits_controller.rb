@@ -1,4 +1,5 @@
 class CommitsController < ApplicationController
+  skip_before_action :verify_authenticty_token
 
   def create
     @commit = Commit.new(params)
