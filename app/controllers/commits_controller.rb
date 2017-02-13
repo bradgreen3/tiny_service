@@ -2,6 +2,7 @@ class CommitsController < ApplicationController
 
   def create
     @commit = Commit.new(params)
+    render json: @commit
   end
 
   def index
