@@ -44,6 +44,9 @@ group :development, :test do
   gem 'launchy'
   gem 'shoulda-matchers'
   gem 'database_cleaner'
+  gem 'rb-readline'
+  gem 'coolline'
+  gem 'pry'
 end
 
 group :production do
